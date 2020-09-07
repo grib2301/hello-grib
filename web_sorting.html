@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="static/test21.css">
+
+        <title>WEB-приложение: сортировщик</title>
+</head>
+
+    <body>
+
+    <nav>
+        <a href="test2.html">Главная</a>
+        <a href="web_sorting.html">Мое веб-приложение: сортировщик </a>
+    <!--    <a style="color: green; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px">Контакты</a>-->
+        <a href="https://skyeermap.com/"> Контакты </a>
+        <a>О разработчике</a>
+    </nav>
+
+    <section class ='f1'>
+        <form action='/answer2' autocomplete =off method='POST'>
+          <fieldset class ='text'>
+                <legend>Введите строку для сортировки</legend>
+                <p><label for='word'> Строка </label><input type='text' id='word' name='word'></p>
+          </fieldset>
+                <p class ='text'><label>Изначальная строка </label>{{input}}</p>
+                <p class ='text'><label>Отсортированная строка </label>{{ans}}</p>
+                <p><input type='submit' value='Сортировать'></p>
+        </form>
+    </section>
+    </body>
+</html>
