@@ -1,0 +1,16 @@
+body{
+    background: #F5F5F5;
+    }
+
+legend {font-weight: 900;
+        color: black }
+label {font-weight: 800}
+
+h1 {color: red}
+p {color: blue}
+a {
+    padding: 10px 10px 10px 10px;
+    background-color: #F5F5F5;
+    color: blue;
+}
+
